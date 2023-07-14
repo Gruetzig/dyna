@@ -1,3 +1,9 @@
+/** 
+ * @file dyna.h 
+ * @brief dynamic array implementation with malloc and free
+ * @author Gruetzig 
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
