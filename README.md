@@ -1,4 +1,4 @@
-# dyna
+# dynarr
 
 ## Return values: 
 

@@ -1,4 +1,4 @@
-#include "dyna.h"
+#include "dynarr.h"
 
 void printAllVals(Dyna *dyna) {
     char printbuf[2000];

@@ -1,5 +1,5 @@
 /** 
- * @file dyna.h 
+ * @file dynarr.h 
  * @brief dynamic array implementation with malloc and free
  * @author Gruetzig 
 */
@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <string.h>
 
+//Internal struct that stores a buffer pointer and size and an int
 typedef struct dyna_internal {
     struct dyna_internal *next;
     void *buf;
@@ -15,6 +16,7 @@ typedef struct dyna_internal {
     int val;
 } iDyna;
 
+//Dyna struct
 typedef struct dyna {
     iDyna *head;
     iDyna *tail;

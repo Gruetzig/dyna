@@ -1,4 +1,4 @@
-#include "dyna.h"
+#include "dynarr.h"
 
 int initDyna(Dyna* dyna) {
     dyna->head = (iDyna*)malloc(sizeof(iDyna));
